@@ -64,3 +64,20 @@ undefined							error
 Data type in JS:
 1) Primitive: Number, String, Boolean, Undefined
 2) Non-Primitive(Objects): Object, Array, Function, Date, Regx
+
+Control statements:
+-------------------
+
+1) Conditional statements (if, else if, switch case)
+
+2) Looping statements (while, do while, for, for in, for of)
+	2-1)while loop
+		while(condition){
+			statements
+		}
+	2-2)do while
+		do{
+		statements
+		}while(condition)
+		
+3) Jumping statements (break, continue)
