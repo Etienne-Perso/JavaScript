@@ -81,3 +81,23 @@ Control statements:
 		}while(condition)
 		
 3) Jumping statements (break, continue)
+
+JavaScript funtions:
+--------------------
+- A JavaScript function is a block of statements which will perform a specific task.
+- A JavaScript function is executed when "something" invokes it (call it).
+
+ex:
+	function name(parameter1, parameter2, parameter3)
+	{
+		//statements to be executed
+	}
+	
+Why functions?
+- You can reuse code: Define the once, and use it many times.
+- You can use the same code many times with different arguments, to produce different results.
+
+JavaScript Arrays:
+- JavaScript arrays are used to store multiple values in a single variable.
+- Any array is a special variable, which can hold more than one value at a time.
+- let cars=["Fiat","Volvo", "BMW"]
