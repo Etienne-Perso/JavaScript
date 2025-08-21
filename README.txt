@@ -101,3 +101,31 @@ JavaScript Arrays:
 - JavaScript arrays are used to store multiple values in a single variable.
 - Any array is a special variable, which can hold more than one value at a time.
 - let cars=["Fiat","Volvo", "BMW"]
+
+OOP in JavaScript: Object Oriented Programming 
+----------------------------------------------
+What is Class & Object?
+- Class is a LOgical entity which contains variables and methods.
+- Object is Physical entity and an instance of a class.
+- Method contains statements. Sometimes method can accept arguments.
+- Class also contains constructors.
+- Constructor will be called when you create object for the class.
+
+				  Int RollNo;   
+				  String Name;				   001 Mary
+Class Student --> SetRoll();   --> Objects --> 002 Julie
+				  DispRoll();				   003 John
+				  SetName();
+				  DispName();
+				  
+							Lion
+							Dog
+Class Animal --> Objects -->Elephant
+							Giraffe
+							Cat 
+							etc...
+
+What is Encapsulation?
+Encapsulation is defined as the wrapping up of data under a single unit.
+It is the mechanism that binds together code and the data.
+The JavaScript Encapsulation is a process of binding the data(i.e. variables) with the functions acting on that data.
