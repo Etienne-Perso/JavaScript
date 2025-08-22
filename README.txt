@@ -128,4 +128,72 @@ Class Animal --> Objects -->Elephant
 What is Encapsulation?
 Encapsulation is defined as the wrapping up of data under a single unit.
 It is the mechanism that binds together code and the data.
-The JavaScript Encapsulation is a process of binding the data(i.e. variables) with the functions acting on that data.
+The JavaScript Encapsulation is a process of binding the data (i.e. variables) with the functions acting on that data.
+
+Inheritance in JavaScript:
+--------------------------
+In programming, inheritance refers to passing down characteristics from a parent to 
+a child so that a new piece of code can reuse and build upon the features of an existing one.
+
+example:
+		 _								_
+		| Vars						   | Vars
+class A |		  }--extends--> class B| 
+		|_methods					   |_methods
+		
+class A is called:
+				  - Parent class or
+				  - Super class or
+				  - Base class.
+class B is called:
+				  - Child class or
+				  - Sub class or
+				  - Derived class.
+	
+Without inheritance:				With inheritance:
+--------------------				-----------------  
+Class PersonnalLoan{         		Class Loan{
+	//50 Methods						//30 Methods/ Which are common for all 3 Loan modules
+}								 	}
+
+Class HomeLoan{						Class PersonnalLoan extends Loan{
+	//50 Methods						//20 Methods
+}									}
+
+Class VehiculLoan{					Class HomeLoan extends Loan{
+	//50 Methods						//20 Methods
+}									}
+
+									Class VehiculLoan extends Loan{
+										//20 Methods
+									}
+									
+Total Methods : 150					Total Methods : 90
+Developpement Time: 150 Hours		Developpement Time: 90 Hours
+
+									
+Type of inheritance:
+
+1)Single inheritance: A -- extends -->B
+
+2)Muli level inheritance: A -- extends -->B -- extends -->C
+
+						   |-- extends -->B
+3)Hierarchy inheritance: A}|-- extends -->C
+						   |-- extends -->D
+						_
+					  A|   
+4)Muliple inheritance: |   }-- extends -->C  not supported in JavaScript
+					  B|_
+
+Prototype in JavaScript:
+------------------------
+- Prototype is an object that is associated with evry function and Object by default.
+- If we want to add new properties at later stage to a function/class, we can take the help of prototype. 
+
+Polymorphysm:
+--------------
+- Poly=many
+- Morph= forms
+- Polymorphysm= many forms
+- Polymorphysm is the ability to create a variable, a function, or an object that has more than one form.
